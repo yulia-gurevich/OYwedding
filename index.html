@@ -7,74 +7,38 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
     @keyframes fadeInUp {
-      0% {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      100% {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
     }
 
     body {
       font-family: 'Playfair Display', serif;
       background-color: #fdf9f4;
       color: #333;
-      line-height: 1.6;
       margin: 0;
       padding: 0;
+      line-height: 1.6;
     }
 
     .container {
-      position: relative;
       max-width: 700px;
-      margin: 0 auto;
+      margin: auto;
       padding: 20px;
-      animation: fadeInUp 1.5s ease forwards;
+      position: relative;
       background-image:
-        url('3.png'),
-        url('4.png'),
-        url('5.png'),
-        url('6.png'),
-        url('7.png'),
-        url('3.png'),
-        url('4.png'),
-        url('5.png'),
-        url('6.png'),
-        url('6.png'),
-        url('7.png'),
-        url('5.png'),
-        url('6.png');
+        url('3.png'), url('4.png'), url('5.png'), url('6.png'), url('7.png'),
+        url('3.png'), url('4.png'), url('5.png'), url('6.png'), url('7.png'),
+        url('5.png'), url('6.png'), url('7.png'), url('3.png'), url('4.png');
       background-repeat: no-repeat;
       background-position:
-        left top,
-        right 20%,
-        left 60%,
-        right 75%,
-        center 85%,
-        right 40%,
-        left 45%,
-        center 50%,
-        left 85%,
-        center 30%,
-        left 25%,
-        center 38%,
-        center 18%;
+        left top, right 20%, left 60%, right 75%, center 85%,
+        right 40%, left 45%, center 50%, left 85%, center 30%,
+        left 25%, center 38%, center 18%, center 10%, right bottom;
       background-size:
-        350px,
-        400px,
-        350px,
-        400px,
-        500px,
-        250px,
-        300px,
-        200px,
-        280px,
-        300px,
-        220px,
-        280px,
-        320px;
+        350px, 400px, 350px, 400px, 500px,
+        250px, 300px, 200px, 280px, 300px,
+        220px, 280px, 320px, 280px, 300px;
+      animation: fadeInUp 1.5s ease;
     }
 
     h1 {
@@ -96,21 +60,19 @@
 
     .section {
       margin: 0 0 10px 0;
-      padding: 0;
-      animation: fadeInUp 1.2s ease forwards;
+      animation: fadeInUp 1.2s ease;
     }
 
     p {
       margin: 6px 0;
-      padding: 0;
-      animation: fadeInUp 1.2s ease forwards;
+      animation: fadeInUp 1.2s ease;
     }
 
     .schedule {
       background: #f3ece4;
       padding: 15px;
       border-radius: 10px;
-      animation: fadeInUp 1.2s ease forwards;
+      animation: fadeInUp 1.2s ease;
     }
 
     .footer {
@@ -118,13 +80,13 @@
       padding: 30px;
       font-style: italic;
       color: #777;
-      animation: fadeInUp 1.2s ease forwards;
+      animation: fadeInUp 1.2s ease;
     }
 
     .map {
       text-align: center;
       margin: 40px 0;
-      animation: fadeInUp 1.2s ease forwards;
+      animation: fadeInUp 1.2s ease;
     }
 
     iframe {
@@ -137,6 +99,11 @@
     .divider {
       border-top: 2px dashed #ccc;
       margin: 50px 0;
+    }
+
+    a {
+      color: #8b4a3c;
+      text-decoration: none;
     }
   </style>
 </head>
