@@ -7,40 +7,77 @@
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
     @keyframes fadeInUp {
-      0% { opacity: 0; transform: translateY(20px); }
-      100% { opacity: 1; transform: translateY(0); }
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     body {
       font-family: 'Playfair Display', serif;
       background-color: #fdf9f4;
       color: #333;
+      line-height: 1.6;
       margin: 0;
       padding: 0;
-      line-height: 1.6;
     }
-
     .container {
-      max-width: 700px;
-      margin: auto;
-      padding: 20px;
       position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      animation: fadeInUp 1.5s ease forwards;
       background-image:
-        url('3.png'), url('4.png'), url('5.png'), url('6.png'), url('7.png'),
-        url('3.png'), url('4.png'), url('5.png'), url('6.png'), url('7.png'),
-        url('5.png'), url('6.png'), url('7.png'), url('3.png'), url('4.png');
+        url('3.png'),
+        url('5.png'),
+        url('6.png'),
+        url('7.png'),
+        url('4.png'),
+        url('4.png'),
+        url('6.png'),
+        url('3.png'),
+        url('7.png'),
+        url('7.png'),
+        url('5.png'),
+        url('3.png'),
+        url('4.png'),
+        url('7.png');
       background-repeat: no-repeat;
       background-position:
-        left top, right 20%, left 60%, right 75%, center 85%,
-        right 40%, left 45%, center 50%, left 85%, center 30%,
-        left 25%, center 38%, center 18%, center 10%, right bottom;
+        top left,
+        35% 26%,
+        center 83%,
+        45% 68%,
+        center 88%,
+        left 68%,
+        right 29%,
+        50% 95%,
+        30% 55%,
+        center 94%,
+        left 38%,
+        50% 2%,
+        right 40%,
+        20% 78%;
       background-size:
-        350px, 400px, 350px, 400px, 500px,
-        250px, 300px, 200px, 280px, 300px,
-        220px, 280px, 320px, 280px, 300px;
-      animation: fadeInUp 1.5s ease;
+        300px,
+        200px,
+        300px,
+        300px,
+        300px,
+        180px,
+        180px,
+        250px,
+        280px,
+        350px,
+        300px,
+        300px,
+        300px,
+        200px;
     }
-
     h1 {
       text-align: center;
       color: #8b4a3c;
@@ -48,62 +85,50 @@
       font-size: 3em;
       margin-bottom: 0;
     }
-
     h2, h3 {
       text-align: center;
       color: #8b4a3c;
     }
-
     h3 {
       margin: 30px 0 10px 0;
     }
-
     .section {
       margin: 0 0 10px 0;
-      animation: fadeInUp 1.2s ease;
+      padding: 0;
+      animation: fadeInUp 1.2s ease forwards;
     }
-
     p {
       margin: 6px 0;
-      animation: fadeInUp 1.2s ease;
+      padding: 0;
+      animation: fadeInUp 1.2s ease forwards;
     }
-
     .schedule {
       background: #f3ece4;
       padding: 15px;
       border-radius: 10px;
-      animation: fadeInUp 1.2s ease;
+      animation: fadeInUp 1.2s ease forwards;
     }
-
     .footer {
       text-align: center;
       padding: 30px;
       font-style: italic;
       color: #777;
-      animation: fadeInUp 1.2s ease;
+      animation: fadeInUp 1.2s ease forwards;
     }
-
     .map {
       text-align: center;
       margin: 40px 0;
-      animation: fadeInUp 1.2s ease;
+      animation: fadeInUp 1.2s ease forwards;
     }
-
     iframe {
       width: 100%;
       height: 300px;
       border: none;
       border-radius: 10px;
     }
-
     .divider {
       border-top: 2px dashed #ccc;
       margin: 50px 0;
-    }
-
-    a {
-      color: #8b4a3c;
-      text-decoration: none;
     }
   </style>
 </head>
@@ -139,11 +164,6 @@
       <p>Мы мечтаем, чтобы этот вечер прошёл весело и непринуждённо. Мы приглашаем гостей подготовить короткое выступление, игру, традицию, песню, танец или что-то оригинальное — можно в одиночку или в группе! Это может занять 10–15 минут. Пожалуйста, дайте нам знать до 15 сентября, чтобы мы могли удачно вписать это в расписание. У нас будут микрофоны и экран. Не воспринимайте слишком серьёзно — мы просто хотим весело провести время вместе!</p>
     </div>
 
-    <div class="section">
-      <h3>Речи и тосты</h3>
-      <p>Так как среди гостей будут как русскоязычные, так и иностранные гости, мы просим тех, кто готовит речь на русском языке, заранее отправить её моей сестре Ольге по адресу <a href="mailto:oromanova547@gmail.com">oromanova547@gmail.com</a>. Она подготовит перевод на английский и распечатает несколько копий. Если ваша речь будет импровизированной — не переживайте, на месте будут люди, готовые помочь с переводом!</p>
-    </div>
-
     <div class="divider"></div>
 
     <h1>Oleg & Yulia</h1>
@@ -154,11 +174,6 @@
       <p>Thank you so much for confirming your attendance at our wedding on 05.10.2025 at Château Mephis Kalaki, Georgia.</p>
       <p>We’re beyond excited to celebrate this special day with you ❤️</p>
       <p>Here’s everything you might need to know before the fun begins! We’ve done our best to make it all smooth sailing — just bring your lovely self and enjoy the ride!</p>
-    </div>
-
-    <div class="section">
-      <h3>Arrangements</h3>
-      <p>We’ve got you covered! Your meals, overnight stay, breakfast the next day, and transport back to Tbilisi are all arranged by us. All you need to do is make your way to Georgia and the beautiful Château — we hope your travel there goes smoothly!</p>
     </div>
 
     <div class="section">
@@ -174,11 +189,6 @@
     <div class="section">
       <h3>Entertainment</h3>
       <p>We’re hoping for a joyful, laid-back evening filled with laughter and fun. To keep things personal and playful, we’d love it if you (alone or with others!) prepared a short, fun contribution: a little performance, game, tradition, song, dance, quiz, speech, or anything else you enjoy. Please keep it around 10–15 minutes max, and let us know your idea by September 15th so we can plan the best timing for it! We’ll have two microphones and a screen ready for you. No pressure — it’s all just for fun and togetherness, and we’re so excited to see what you come up with!</p>
-    </div>
-
-    <div class="section">
-      <h3>Speeches & Toasts</h3>
-      <p>To make sure everyone can enjoy the beautiful words shared, we kindly ask those preparing a speech in Russian to send it in advance to my sister Olga at <a href="mailto:oromanova547@gmail.com">oromanova547@gmail.com</a>. She will prepare English copies for our international guests. For spontaneous speeches — no worries at all! We'll have lovely people on hand to help with live translations.</p>
     </div>
 
     <div class="section schedule">
