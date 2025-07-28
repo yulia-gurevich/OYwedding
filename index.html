@@ -6,6 +6,17 @@
   <title>Oleg & Yulia's Wedding</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
   <style>
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
     body {
       font-family: 'Playfair Display', serif;
       background-color: #fdf9f4;
@@ -15,7 +26,37 @@
       padding: 0;
     }
     .container {
-  opacity: 0.98;}
+      position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 20px;
+      animation: fadeInUp 1.5s ease forwards;
+      background-image:
+        url('3.png'), url('4.png'), url('5.png'), url('6.png'), url('7.png'),
+        url('3.png'), url('4.png'), url('5.png'), url('6.png');
+      background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+                         no-repeat, no-repeat, no-repeat, no-repeat;
+      background-position:
+        left top,
+        right 20%,
+        left 60%,
+        right 75%,
+        center 85%,
+        right 40%,
+        left 45%,
+        center 50%,
+        left 85%;
+      background-size:
+        350px,
+        400px,
+        350px,
+        400px,
+        500px,
+        250px,
+        300px,
+        200px,
+        280px;
+    }
     h1 {
       text-align: center;
       color: #8b4a3c;
@@ -33,25 +74,30 @@
     .section {
       margin: 0 0 10px 0;
       padding: 0;
+      animation: fadeInUp 1.2s ease forwards;
     }
     p {
       margin: 6px 0;
       padding: 0;
+      animation: fadeInUp 1.2s ease forwards;
     }
     .schedule {
       background: #f3ece4;
       padding: 15px;
       border-radius: 10px;
+      animation: fadeInUp 1.2s ease forwards;
     }
     .footer {
       text-align: center;
       padding: 30px;
       font-style: italic;
       color: #777;
+      animation: fadeInUp 1.2s ease forwards;
     }
     .map {
       text-align: center;
       margin: 40px 0;
+      animation: fadeInUp 1.2s ease forwards;
     }
     iframe {
       width: 100%;
@@ -169,4 +215,5 @@
   </div>
 </body>
 </html>
+
 
