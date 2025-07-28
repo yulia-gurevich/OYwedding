@@ -25,27 +25,28 @@
       margin: auto;
       padding: 20px;
       position: relative;
-      /* Splashes: balanced, varied sizes & opacities */
+      animation: fadeInUp 1.5s ease;
+
+      /* Splash backgrounds, in order: 3.png→pink, 4.png→orange, 5.png→green, 6.png→khaki, 7.png→blue */
       background-image:
-        url('pink.png'),    /* big pink behind title */
-        url('green.png'),   /* green under Gifts */
-        url('orange.png'),  /* orange under Dress Code */
-        url('khaki.png'),   /* khaki under Entertainment */
-        url('blue.png');    /* blue near schedule */
+        url('3.png'),
+        url('4.png'),
+        url('5.png'),
+        url('6.png'),
+        url('7.png');
       background-repeat: no-repeat;
       background-position:
-        left top,           /* pink */
-        center 60%,         /* green */
-        right 30%,          /* orange */
-        left 25% 70%,       /* khaki */
-        center 90% 80%;     /* blue */
+        left top,         /* behind Russian title */
+        right 20% 30%,    /* under Russian Dress Code */
+        center 60%,       /* under English Gifts */
+        left 25% 70%,     /* under English Entertainment */
+        center 90% 80%;   /* near schedule */
       background-size:
-        400px,  /* pink */
-        300px,  /* green */
-        350px,  /* orange */
-        280px,  /* khaki */
-        320px;  /* blue */
-      animation: fadeInUp 1.5s ease;
+        350px,  /* 3.png */
+        400px,  /* 4.png */
+        300px,  /* 5.png */
+        280px,  /* 6.png */
+        320px;  /* 7.png */
     }
 
     h1 {
@@ -104,23 +105,23 @@
 <body>
   <div class="container">
 
-    <!-- Russian Section -->
+    <!-- Russian section -->
     <h1>Олег и Юлия</h1>
     <h2>приглашают вас отпраздновать их свадьбу</h2>
     <p style="text-align:center; font-weight:bold;">
-      Воскресенье, 5 октября 2025<br>
-      Château Mephis Kalaki, Верхний Чочети, Грузия
+      Воскресенье, 5 октября 2025<br>
+      Château Mephis Kalaki, Верхний Чочети, Грузия
     </p>
 
     <div class="section">
       <p>Благодарим вас за подтверждение участия в нашей свадьбе!</p>
-      <p>Мы безмерно рады разделить этот особенный день вместе с вами ❤️</p>
-      <p>Ниже вы найдёте всю важную информацию, которая поможет вам подготовиться к празднику. Мы постарались всё организовать максимально удобно — просто приезжайте и наслаждайтесь!</p>
+      <p>Мы безмерно рады разделить этот особенный день вместе с вами ❤️</p>
+      <p>Ниже вы найдёте всю важную информацию, которая поможет вам подготовиться к празднику. Мы постарались всё организовать максимально удобно — просто приезжайте и наслаждайтесь!</p>
     </div>
 
     <div class="section">
       <h3>Организация</h3>
-      <p>Ваше проживание, питание, завтрак и трансфер в Тбилиси на следующий день — всё уже включено. Если возникнут трудности — дайте нам знать.</p>
+      <p>Ваше проживание, питание, завтрак и трансфер в Тбилиси на следующий день — всё уже включено. Если возникнут трудности — дайте нам знать.</p>
     </div>
 
     <div class="section">
@@ -130,15 +131,15 @@
 
     <div class="section">
       <h3>Дресс-код</h3>
-      <p>Будем рады, если вы выберете наряды в нежных пастельных или натуральных тонах. Главное, чтобы вам было комфортно и приятно!</p>
+      <p>Будем рады, если вы выберете наряды в нежных пастельных или натуральных тонах. Главное — комфорт и удовольствие!</p>
     </div>
 
-    <!-- Splash under Развлечения has been removed as requested -->
+    <!-- Removed splash under «Развлечения» as requested -->
 
-    <!-- English Section -->
+    <!-- English section -->
     <div class="divider"></div>
 
-    <h1>Oleg & Yulia</h1>
+    <h1>Oleg & Yulia</h1>
     <h2>invite you to celebrate their wedding</h2>
     <p style="text-align:center; font-weight:bold;">
       Sunday 5th of October<br>
@@ -153,22 +154,22 @@
 
     <div class="section">
       <h3>Gifts</h3>
-      <p>Your presence truly means the world to us! But if you’d like to give something, we’re saving for our home renovation, so any monetary contribution would be appreciated.</p>
+      <p>Your presence truly means the world to us! But if you’d like to give something, we’re saving for our home renovation—any monetary contribution is appreciated.</p>
     </div>
 
     <div class="section">
       <h3>Dress Code</h3>
-      <p>To create a soft and dreamy vibe, please wear natural or pastel tones. Think fresh, romantic, and relaxed!</p>
+      <p>Please wear natural or pastel tones—fresh, romantic, relaxed!</p>
     </div>
 
     <div class="section">
       <h3>Entertainment</h3>
-      <p>We’d love if you prepared a short fun contribution—song, dance, game, poem, etc. (10–15 min max). Let us know by September 15th so we can schedule it. Two mics & screen provided!</p>
+      <p>We’d love a short fun contribution—song, dance, game, poem, etc. (10–15 min). Let us know by September 15th so we can schedule it. Two mics & screen provided!</p>
     </div>
 
     <div class="section">
-      <h3>Speeches & Toasts</h3>
-      <p>Please send any prepared Russian speech in advance to my sister Olga at <a href="mailto:oromanova547@gmail.com">oromanova547@gmail.com</a>. She’ll print English copies. For impromptu toasts, we have translators on hand.</p>
+      <h3>Speeches & Toasts</h3>
+      <p>Send any Russian speech in advance to my sister Olga at <a href="mailto:oromanova547@gmail.com">oromanova547@gmail.com</a>. She’ll print English copies. Impromptu toasts will be translated live.</p>
     </div>
 
     <div class="section schedule">
@@ -185,7 +186,7 @@
     </div>
 
     <div class="footer">
-      We’re truly grateful you’re making the journey to be with us — your presence, love, and energy mean so much!<br><br>
+      We’re truly grateful you’re making the journey to be with us—your presence, love, and energy mean so much!<br><br>
       With love,<br>
       Oleg and Yulia
     </div>
@@ -193,7 +194,6 @@
   </div>
 </body>
 </html>
-
 
 
 
