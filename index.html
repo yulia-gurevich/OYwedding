@@ -18,15 +18,38 @@
       max-width: 700px;
       margin: 0 auto;
       padding: 20px;
+      position: relative;
     }
-    .splash-wrapper {
-      text-align: center;
-      margin: 40px 0;
+    .splash {
+      position: absolute;
+      z-index: -1;
+      opacity: 1;
+      pointer-events: none;
     }
-    .splash-img {
-      width: 70%;
-      max-width: 700px;
-      height: auto;
+    .splash-1 {
+      top: 50px;
+      left: -150px;
+      width: 500px;
+    }
+    .splash-2 {
+      top: 400px;
+      right: -100px;
+      width: 450px;
+    }
+    .splash-3 {
+      top: 900px;
+      left: -120px;
+      width: 500px;
+    }
+    .splash-4 {
+      top: 1400px;
+      right: -130px;
+      width: 480px;
+    }
+    .splash-5 {
+      top: 1800px;
+      left: 100px;
+      width: 500px;
     }
     h1 {
       text-align: center;
@@ -73,8 +96,12 @@
   </style>
 </head>
 <body>
-  <div class="splash-wrapper"><img src="3.png" class="splash-img" /></div>
-  <div class="container">
+    <div class="container">
+    <img src="3.png" class="splash splash-1" />
+    <img src="4.png" class="splash splash-2" />
+    <img src="5.png" class="splash splash-3" />
+    <img src="6.png" class="splash splash-4" />
+    <img src="7.png" class="splash splash-5" />
     <!-- Content continues here -->
 
     <h1>Олег и Юлия</h1>
